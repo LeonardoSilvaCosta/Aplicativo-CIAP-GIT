@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_margin="16dp"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:text="Informe o e-mail para recuperar a senha"/>
+
+    <com.beardedhen.androidbootstrap.BootstrapEditText
+        android:id="@+id/edteEnviarEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        app:bootstrapBrand="info"
+        app:bootstrapSize="xl"
+        app:roundedCorners="true" />
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+    android:id="@+id/btnEnviarEmail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:text="Enviar E-mail"
+    app:bootstrapBrand="primary"
+    app:bootstrapSize="xl"
+    app:buttonMode="regular"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.819"
+    app:roundedCorners="true"
+    app:showOutline="false" />
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/btnCancelarAlerta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Cancelar"
+        app:bootstrapBrand="primary"
+        app:bootstrapSize="xl"
+        app:buttonMode="regular"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.819"
+        app:roundedCorners="true"
+        app:showOutline="false" />
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "14114653831",
+    "firebase_url": "https://aplicativo-ciap.firebaseio.com",
+    "project_id": "aplicativo-ciap",
+    "storage_bucket": "aplicativo-ciap.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14114653831:android:55cb2412bc0ed3c8fb9a22",
+        "android_client_info": {
+          "package_name": "com.br.aplicativociap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "14114653831-hri8o0b6int1644jmrs5kvlk2ahcbmmo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.br.aplicativociap",
+            "certificate_hash": "d00a32d06e84f99b4b7ef7205fb1fb1ffd799552"
+          }
+        },
+        {
+          "client_id": "14114653831-1o19qt8j6uqr02jl7tl372oiqn86kdmp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAscYrdMuyp0KohX1mwXwAY9tGmZqJh5gY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "14114653831-1o19qt8j6uqr02jl7tl372oiqn86kdmp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
